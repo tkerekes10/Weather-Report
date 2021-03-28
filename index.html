@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Weather Report</title>
+  </head>
+  <body>
+    <header class="hero">
+      <h1 class="app-title">Weather Report</h1>
+    </header>
+
+    <main class="flex-row">
+      <div class="col-12 col-md-2">
+        <div class="card">
+          <p class="card-header text-uppercase">Search for a City:</p>
+          <form
+            class="example"
+            id="city-search-form"
+            style="margin: auto; max-width: 300px"
+          >
+            <input
+              type="text"
+              placeholder="Enter a City Here"
+              name="city-input"
+              id="city-input"
+            />
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
+
+        <!-- <div class="card">
+          <h2 class="subtitle">
+            Search History: <span id="repo-search-term"></span>
+          </h2>
+          <div id="search-history" class="list-group"></div>
+        </div> -->
+      </div>
+
+      <div class="weather-dashboard col-12 col-md-10">
+        <div class="card main-content" id='current-weather'>
+          <!-- <div class='main-content'> -->
+          <div id="city-container">
+            <h1>Current Weather</h1> 
+          </div>
+          <div id="weather-icon"></div>
+          <div id="temp-container"></div>
+          <div id="humidity-container"></div>
+          <div id="wind-speed-container"></div>
+          <div id="uv-index-container"></div>
+          <!-- </div> -->
+        </div>
+
+          <div class="row justify-content-around" id="card-container">
+            <!-- <div class='col-12 col-md-2'> -->
+            <div class="col-12 col-md-2 card-future">
+                <div id='future-date-1'></div>
+                <div id='future-icon-1'></div>
+                <div id='future-temp-1'></div>
+                <div id='future-humidity-1'></div>
+            </div>
+            <!-- </div> -->
+            <!-- <div class='col-12 col-md-2'> -->
+            <div class="col-12 col-md-2 card-future">
+                <div id='future-date-2'></div>
+                <div id='future-icon-2'></div>
+                <div id='future-temp-2'></div>
+                <div id='future-humidity-2'></div>
+            </div>
+            <!-- </div> -->
+            <!-- <div class='col-12 col-md-2'> -->
+            <div class="col-12 col-md-2 card-future">
+                <div id='future-date-3'></div>
+                <div id='future-icon-3'></div>
+                <div id='future-temp-3'></div>
+                <div id='future-humidity-3'></div>
+            </div>
+            <!-- </div> -->
+            <!-- <div class='col-12 col-md-2'> -->
+            <div class="col-12 col-md-2 card-future">
+                <div id='future-date-4'></div>
+                <div id='future-icon-4'></div>
+                <div id='future-temp-4'></div>
+                <div id='future-humidity-4'></div>
+            </div>
+            <!-- </div> -->
+            <!-- <div class='col-12 col-md-2'> -->
+            <div class="col-12 col-md-2 card-future">
+                <div id='future-date-5'></div>
+                <div id='future-icon-5'></div>
+                <div id='future-temp-5'></div>
+                <div id='future-humidity-5'></div>
+            </div>
+            <!-- </div> -->
+          </div>
+      </div>
+      <!-- <div class ='col-12 col-md-2'></div>
+    <div class='col-12 col-md-10' id='card-container'>
+        <div class='col-12 col-md-2'>
+            <div class='card'>
+                TEST
+            </div>
+        </div>
+        <div class= 'col-12 col-md-2'>
+            <div class='card'>
+                TEST
+            </div>
+        </div>
+        <div class='col-12 col-md-2'>
+            <div class='card'>
+                TEST
+            </div>
+        </div>
+        <div class='col-12 col-md-2'>
+            <div class='card'>
+                TEST
+            </div>
+        </div>
+        <div class='col-12 col-md-2'>
+            <div class='card'>
+                TEST
+            </div>
+        </div>
+    </div> -->
+    </main>
+  
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="assets/js/script.js"></script>
+
+</body>
+
+ 
+</html>
